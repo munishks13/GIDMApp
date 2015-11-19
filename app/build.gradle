@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.capstone.coursera.gidma"
+        minSdkVersion 23
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:design:23.1.0'
+
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.2.1'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'commons-collections:commons-collections:3.0'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.okio:okio:1.4.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.jjoe64:graphview:4.0.1'
+
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/followListUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:layout_marginTop="5px"
+        android:textSize="40px"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:id="@+id/followList_yes"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginRight="10px"
+        android:layout_gravity="end"
+        android:src="@drawable/request_yes"
+        android:layout_marginEnd="46dp"
+        android:layout_alignTop="@+id/followList_no"
+        android:layout_toStartOf="@+id/followList_no" />
+
+
+
+    <ImageView
+        android:id="@+id/followList_no"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginRight="10px"
+        android:layout_gravity="end"
+        android:src="@drawable/request_no"
+        android:layout_alignTop="@+id/followListUserId"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="41dp" />
+
+    <TextView
+        android:id="@+id/followListUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:layout_marginTop="5px"
+        android:textSize="25px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/followListUserId"
+        />
+
+
+
+ </RelativeLayout>

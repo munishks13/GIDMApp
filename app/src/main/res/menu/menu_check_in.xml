@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.capstone.coursera.gidma.activity.CheckInActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <!-- Search, should appear as action button -->
+
+
+    <item android:id="@+id/action_set_Alarm"
+        android:icon="@drawable/alarm_not_set"
+        android:title="@string/action_set_Alarm"
+         />
+
+</menu>

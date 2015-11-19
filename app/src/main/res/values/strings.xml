@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Got It Diabetes Management</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_userId">User Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_userId">This userId is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This userId and/or password are incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing userId
+        completions."
+    </string>
+
+
+    <!-- Strings related to Sign UP -->
+    <string name="action_sign_up">Sign up</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="userId">User Id</string>
+    <string name="password">Password</string>
+    <string name="repeatPassword">Repeat Password</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="isPatient">Is Teen ?</string>
+    <string name="dateOfBirth">Date Of Birth (MM/DD/YYYY)</string>
+    <string name="medRecNum">Medical Record Number</string>
+    <string name="wantToBeFollowed">Do you want to be followed ?</string>
+    <string name="signUpBtn">Sign Up</string>
+
+    <string name="validationFailed_pswd_repetePswd_notMatch">Password and Repeate Password did not matched.</string>
+    <string name="dob_pattern_MMDDYYY_Error">DOB should be in MM/DD/YYY format</string>
+
+
+    <!-- Strings related to User Home Screen -->
+    <string name="checkIn">Check In</string>
+    <string name="dataPrivacy">Data Privacy</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="followerList">Followers</string>
+    <string name="followerRequest">Followers Request</string>
+
+    <string name="following_list">Following</string>
+    <string name="waiting_following_request">Waiting Following Request</string>
+
+    <string name="requestToFollow">Request To Follow</string>
+
+    <!-- OLDDDDDDDDDDDDDDd -->
+
+
+    <string name="videoView_name">Video View</string>
+    <!-- <string name="action_settings">Settings</string> -->
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="title_upload_video">Upload Video by</string>
+    <string name="video_download">Download Video</string>
+    <string name="videoViewTitle">Video View Title</string>
+    <string name="content_authority">com.test.assignment3.video</string>
+
+
+    <!-- Login Activity Strings -->
+    <string name="login_activity_example_text">Please Login to access Videos !!!</string>
+    <string name="login_activity_login">Login</string>
+    <string name="login_activity_password">Password:</string>
+    <string name="login_activity_login_id">Login ID:</string>
+    <string name="ACCOUNT_TYPE">edu.vanderbilt.SyncProviderDemo.account</string>
+    <string name="server">Server Address::</string>
+    <string name="username">Username:</string>
+    <string name="username_hint">username Hint!</string>
+    <!-- <string name="password">Password:</string> -->
+    <string name="password_hint">password Hint!</string>
+    <string name="login">Login</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="view_video_rating">Refresh Rating</string>
+    <string name="videoRatingViewStr">Video Rating</string>
+
+
+    <!-- Check in Activity Strings -->
+    <string name="title_activity_check_in">Check In</string>
+    <string name="large_text">Please check in.</string>
+
+    <string name="checkin_bloodSugarLvlMT">What was your blood sugar level at meal time?</string>
+    <string name="checkin_bloodSugarLvlBT">What was your blood sugar level at bedtime?</string>
+    <string name="checkin_bloodSugarLvlFasting">What was your blood sugar level at Morning / Fasting?</string>
+    <string name="checkin_bloodSugarLvlTime">What time did you check your blood sugar level at </string>
+    <string name="checkin_eatMT">What did you eat at meal time?</string>
+    <string name="checkin_insulin">Did you administer insulin?</string>
+    <string name="checkin_whoWithYou">Who were you with when you checked/should have checked your blood sugar?</string>
+    <string name="checkin_whereWereYou">Where were you when you checked/should have checked your blood sugar?</string>
+    <string name="checkin_mood">How was your mood when you checked/should have checked your blood sugar?</string>
+    <string name="checkin_stress">How was your stress level when you checked/should have checked your blood sugar?</string>
+    <string name="checkin_energyLvl">How was your energy level when you checked/should have checked your blood sugar?</string>
+    <string name="checkin_bloodSugarLvlTimeEvent">Were any of these things happening at the time you checked/should have checked your blood sugar:</string>
+
+    <string name="checkin_Rushing">Rushing</string>
+    <string name="checkin_FT">feeling tired of diabetes</string>
+    <string name="checkin_FS">feeling sick</string>
+    <string name="checkin_OR">on the road</string>
+    <string name="checkin_RH">really hungry</string>
+    <string name="checkin_WP">wanting privacy</string>
+    <string name="checkin_BUSY">busy and didn’t want to stop</string>
+    <string name="checkin_WS">without supplies</string>
+    <string name="checkin_FL">feeling low</string>
+    <string name="checkin_FH">feeling high</string>
+    <string name="checkin_FUN">having a lot of fun</string>
+    <string name="checkin_tired">tired</string>
+
+    <string name="checkin_bloodSugarLvlTimeEvent_prompt">How you feeling</string>
+
+    <string-array name="checkin_qstn_privacy_arrays">
+        <item>@string/checkin_bloodSugarLvlMT</item>
+        <item>@string/checkin_bloodSugarLvlBT</item>
+        <item>@string/checkin_bloodSugarLvlFasting</item>
+        <item>@string/checkin_bloodSugarLvlTime</item>
+        <item>@string/checkin_eatMT</item>
+        <item>@string/checkin_insulin</item>
+        <item>@string/checkin_whoWithYou</item>
+        <item>@string/checkin_whereWereYou</item>
+        <item>@string/checkin_mood</item>
+        <item>@string/checkin_stress</item>
+        <item>@string/checkin_energyLvl</item>
+        <item>@string/checkin_bloodSugarLvlTimeEvent</item>
+    </string-array>
+
+
+    <string-array name="checkin_bloodSugarLvlTimeEvent_arrays">
+        <item>@string/checkin_Rushing</item>
+        <item>@string/checkin_FT</item>
+        <item>@string/checkin_FS</item>
+        <item>@string/checkin_OR</item>
+        <item>@string/checkin_RH</item>
+        <item>@string/checkin_WP</item>
+        <item>@string/checkin_BUSY</item>
+        <item>@string/checkin_WS</item>
+        <item>@string/checkin_FL</item>
+        <item>@string/checkin_FH</item>
+        <item>@string/checkin_FUN</item>
+        <item>@string/checkin_tired</item>
+    </string-array>
+
+
+    <string name="title_activity_follower_list">" Followers Or Following List"</string>
+
+    <!-- <string name="title_activity_sign_up">Sign Up</string> -->
+
+
+    <string name="action_set_Alarm">Set or Unset Alarm</string>
+    <string name="action_cancel_Alarm">Cancel Alarm</string>
+    <string name="title_activity_data_privacy">DataPrivacy</string>
+
+    <string name="setDataPrivacyBtn">Set Data Privacy</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <string name="viewFeedbackBtn">View Graph</string>
+
+</resources>

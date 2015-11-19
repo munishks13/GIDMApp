@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/feedbackForm"
+    tools:context="com.capstone.coursera.gidma.activity.FeedbackActivity"
+    tools:showIn="@layout/activity_feedback">
+
+
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/feedback_graph"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <DatePicker
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromDatePicker"
+        android:calendarViewShown="false"
+        android:clickable="true"
+        android:layout_alignParentTop="true"/>
+
+    <DatePicker
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toDatePicker"
+        android:calendarViewShown="false"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/fromDatePicker"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewFeedbackBtn"
+        android:id="@+id/viewFeedbackBtnId"
+        android:calendarViewShown="false"
+        android:onClick="getFeedBackData"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toDatePicker"
+        />
+
+</RelativeLayout>
